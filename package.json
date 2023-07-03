@@ -1,8 +1,8 @@
 {
-  "name": "TaskPro",
+  "name": "FinancePlanner",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hanna-bazdyrieva.github.io/TaskPro/",
+  "homepage": " https://hanna-bazdyrieva.github.io/FinancePlanner/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",

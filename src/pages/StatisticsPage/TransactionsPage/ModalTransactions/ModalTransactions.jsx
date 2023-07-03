@@ -5,12 +5,12 @@ import Select from 'react-select';
 import { useDispatch, useSelector } from 'react-redux';
 import c from '../../../../components/ModalAddIncome/MoadlAddIncome.module.scss';
 import { useCallback, useEffect, useState } from 'react';
-import { categorySelect } from 'redux/Expenses/expensesSelectors';
+import { categorySelect } from 'redux/expenses/expensesSelectors';
 import { updateTransaction } from 'redux/transactions/transactionsOperations';
 import { IconOption } from 'components/TransactionSelect/iconsForSelectCategory';
 import { Field, Form, Formik } from 'formik';
 import * as Yup from 'yup';
-import { getCategory } from 'redux/Expenses/expensesOperations';
+import { getCategory } from 'redux/expenses/expensesOperations';
 
 
 const modalRoot = document.querySelector('#modal-root');
