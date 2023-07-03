@@ -1,0 +1,25 @@
+@import '../../sass/utils/mixin';
+.vectorImg {
+  @include tablet_max {
+    padding-top: 50px;
+  }
+  @include tablet {
+    height: calc(100vh - 71px);
+    padding-top: 100px;
+  }
+  @include desktop {
+    padding-top: 66px;
+  }
+
+  
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  @include tablet {
+    background-image: url(../../assets/images/vector-tablet.png);
+  }
+
+  @include desktop {
+    background-image: url(../../assets/images/vector-desktop.png);
+  }
+}
